@@ -1,0 +1,21 @@
+{
+    "name": "osw3/symfony-iam",
+    "description": "Manage security and access to your app.",
+    "homepage": "https://osw3.net",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+		{
+			"name": "Project Contributors",
+			"homepage": "https://github.com/osw3/symfony-iam/graphs/contributors"
+		}
+    ],
+    "autoload": {
+        "psr-4": {
+            "OSW3\\Iam\\": "src/"
+        }
+    },
+    "require": {}
+}
